@@ -7,10 +7,11 @@ def display_board(board)
 end
 
 def input_to_index(num)
-  num=num.Integer
-  num=num-1
+  num = num.to_i
+  num = num - 1
 end
 
-def move
+def move(board,index,char)
+  board[index] = value 
   
 end
